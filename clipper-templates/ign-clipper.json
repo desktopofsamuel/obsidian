@@ -1,0 +1,43 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "IGN",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}",
+	"properties": [
+		{
+			"name": "categories",
+			"value": "[[Games]]",
+			"type": "multitext"
+		},
+		{
+			"name": "Maker",
+			"value": "{{selector: a[title=\\\"Developers\\\"]}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "games, to-play",
+			"type": "multitext"
+		},
+		{
+			"name": "year",
+			"value": "{{selector: time[data-cy=\\\"release-date\\\"]}}",
+			"type": "number"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "genre",
+			"value": "{{selector: div.object-summary-text.genres-info > div:nth-child(2)}}",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"https://www.ign.com/games/"
+	],
+	"noteNameFormat": "{{selector:h1}}",
+	"path": "Clippings"
+}
