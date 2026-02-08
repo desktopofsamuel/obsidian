@@ -5,4 +5,6 @@ To install templates, see instructions in the [official Obsidian Web Clipper doc
 Started with [kepano's template](https://help.obsidian.md/web-clipper/templates) with some customisation and modification.
 
 Templates
-- Goodreads
+- [Goodreads](https://github.com/desktopofsamuel/obsidian/blob/main/clipper-templates/goodreads-clipper.json)
+- [IGN](https://github.com/desktopofsamuel/obsidian/blob/main/clipper-templates/ign-clipper.json)
+- [Youtube](https://github.com/desktopofsamuel/obsidian/blob/main/clipper-templates/youtube-clipper.json)
